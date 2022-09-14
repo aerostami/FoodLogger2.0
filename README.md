@@ -37,3 +37,4 @@ Add these descriptions manually in Info.plist file of IOS folder after building 
 [https://stack247.wordpress.com/2018/12/26/ionic-plugin-camera-info-plist/](https://stack247.wordpress.com/2018/12/26/ionic-plugin-camera-info-plist/)
 
 [https://stackoverflow.com/questions/39465687/nscamerausagedescription-in-ios-10-0-runtime-crash](https://stackoverflow.com/questions/39465687/nscamerausagedescription-in-ios-10-0-runtime-crash)
+# FoodLogger2.0
