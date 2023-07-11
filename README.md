@@ -72,17 +72,24 @@ The different pages are layed here as seen above.
 
 
 ## Customization:
+It's good to practice creating a blank ionic project for yourself first before deciding to change the code in the food logger:
+https://ionicframework.com/docs/angular/your-first-app
 
+Most of the customization can happen on the backend so that the user doesn’t have to worry about much on their end, the only time the user is directly involved is on the 3rd tab where they set their preferences, diet restrictions and allergies along with their basic biometric information. The rest of the customization can happen automatically by the app getting to know the user:
 
-Most of the customization can happen on the backend so that the user doesn’t have to worry about much on their end, the only time the user is directly involved is on the 3rd tab where they set their preferences, diet restrictions and allergies along with their basic biometric information. The rest of the customization can happen automatically by the app getting to know the user.
 
 ### Adding a new page:
-$ ionic generate [type] [name]
-Automatically create framework features with Ionic Generate. This command uses the Angular CLI to generate features such as pages, components, directives, services, and more.
-For a full list of available types, use npx ng g --help
-For a list of options for a types, use npx ng g <type> --help
-You can specify a path to nest your feature within any number of subdirectories. For example, specify a name of "pages/New Page" to generate page files at src/app/pages/new-page/.
-To test a generator before file modifications are made, use the --dry-run option.
+Adding new pages and components are easy just follow the documentations:
+https://ionicframework.com/docs/cli/commands/generate
+
+#### $ ionic generate [type] [name]
+
+##### Automatically create framework features with Ionic Generate. This command uses the Angular CLI to generate features such as pages, components, directives, services, and more:
+
+#### For a full list of available types, use npx ng g --help
+#### For a list of options for a types, use npx ng g <type> --help
+#### You can specify a path to nest your feature within any number of subdirectories. For example, specify a name of "pages/New Page" to generate page files at src/app/pages/new-page/.
+#### To test a generator before file modifications are made, use the --dry-run option.
 
 
 
