@@ -12,7 +12,7 @@ https://ionicframework.com/docs/intro/cli#:~:text=Installing%20Ionic%201%20Insta
 
 ## User Interface:
 <img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
-![Food Logger Architecture](https://lh3.googleusercontent.com/drive-viewer/AITFw-wMRw_Gj-WB2EPhHl6_SG5nXXVSexwTcXoamr_-Ce9D9-ilruTk4qklOdBLBuPXQapAB27MCro_8trTVQrlIk2jZO9YMw=s400)
+![Food Logger Architecture](https://lh3.googleusercontent.com/drive-viewer/AITFw-wMRw_Gj-WB2EPhHl6_SG5nXXVSexwTcXoamr_-Ce9D9-ilruTk4qklOdBLBuPXQapAB27MCro_8trTVQrlIk2jZO9YMw=s1600)
 
 The food logging application offers a user-friendly interface with three distinct tabs, each serving a specific purpose to enhance the user's experience. This section provides an overview of the tabs and their functionalities.
 
