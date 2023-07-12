@@ -11,8 +11,8 @@ More on installing ionic
 https://ionicframework.com/docs/intro/cli#:~:text=Installing%20Ionic%201%20Install%20the%20Ionic%20CLI%20Before,the%20browser%20using%20the%20ionic%20serve%20command%3A%20
 
 ## User Interface:
-
-![Food Logger Architecture](https://lh3.googleusercontent.com/drive-viewer/AITFw-wMRw_Gj-WB2EPhHl6_SG5nXXVSexwTcXoamr_-Ce9D9-ilruTk4qklOdBLBuPXQapAB27MCro_8trTVQrlIk2jZO9YMw=s1600  | width=100)
+<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+![Food Logger Architecture](https://lh3.googleusercontent.com/drive-viewer/AITFw-wMRw_Gj-WB2EPhHl6_SG5nXXVSexwTcXoamr_-Ce9D9-ilruTk4qklOdBLBuPXQapAB27MCro_8trTVQrlIk2jZO9YMw=s400)
 
 The food logging application offers a user-friendly interface with three distinct tabs, each serving a specific purpose to enhance the user's experience. This section provides an overview of the tabs and their functionalities.
 
