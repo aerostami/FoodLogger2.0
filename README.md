@@ -1,6 +1,6 @@
 # food-logger
 
-### Installation:
+## Installation:
 Just copy the repository and install ionic then run "ionic serve" or "npm run".
 
 Downloading Ionic:
@@ -10,6 +10,19 @@ npm install -g @ionic/cli native-run cordova-res
 More on installing ionic
 https://ionicframework.com/docs/intro/cli#:~:text=Installing%20Ionic%201%20Install%20the%20Ionic%20CLI%20Before,the%20browser%20using%20the%20ionic%20serve%20command%3A%20
 
+
+## Nutrition Database Connectivity
+
+Food Logger can be connected to any nutritional dataset but by default it is connected to the NutritionIX data set.
+In order for you to setup the connection on your instance of the code you must obtain a unique key and id from nutritionIX.
+You can sign up for your API key here:
+https://developer.nutritionix.com/signup
+And you can view your API key here:
+https://developer.nutritionix.com/login
+
+
+
+Once you have the id and key go to "FoodLogger2.0/src/app/app.config.ts" and enter your id and key into the file replacing the "x"es.
 ## User Interface:
 
 ![Main Home Page](https://lh3.googleusercontent.com/drive-viewer/AITFw-wMRw_Gj-WB2EPhHl6_SG5nXXVSexwTcXoamr_-Ce9D9-ilruTk4qklOdBLBuPXQapAB27MCro_8trTVQrlIk2jZO9YMw=s600)
@@ -59,6 +72,9 @@ The different pages are layed here as seen above.
 ## Customization:
 It's good to practice creating a blank ionic project for yourself first before deciding to change the code in the food logger:
 https://ionicframework.com/docs/angular/your-first-app
+
+For adding new NutritionIX features see:
+https://docs.google.com/document/d/1_q-K-ObMTZvO0qUEAxROrN3bwMujwAN25sLHwJzliK0/edit#heading=h.73n49tgew66c
 
 Most of the customization can happen on the backend so that the user doesn’t have to worry about much on their end, the only time the user is directly involved is on the 3rd tab where they set their preferences, diet restrictions and allergies along with their basic biometric information. The rest of the customization can happen automatically by the app getting to know the user:
 
