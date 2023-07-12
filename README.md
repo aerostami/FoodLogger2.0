@@ -12,16 +12,20 @@ https://ionicframework.com/docs/intro/cli#:~:text=Installing%20Ionic%201%20Insta
 
 ## User Interface:
 
-![Food Logger Architecture](https://lh3.googleusercontent.com/drive-viewer/AITFw-wMRw_Gj-WB2EPhHl6_SG5nXXVSexwTcXoamr_-Ce9D9-ilruTk4qklOdBLBuPXQapAB27MCro_8trTVQrlIk2jZO9YMw=s600)
+![Main Home Page](https://lh3.googleusercontent.com/drive-viewer/AITFw-wMRw_Gj-WB2EPhHl6_SG5nXXVSexwTcXoamr_-Ce9D9-ilruTk4qklOdBLBuPXQapAB27MCro_8trTVQrlIk2jZO9YMw=s600)
 
 The food logging application offers a user-friendly interface with three distinct tabs, each serving a specific purpose to enhance the user's experience. This section provides an overview of the tabs and their functionalities.
 
+![Logging Page](https://lh3.googleusercontent.com/drive-viewer/AITFw-w9F7_VqKMBt7JgV71mgvXPPsAg-vj3-RJ8oE4TFmq_5rhKb5Qq_hQfw3tyVHkdQxELPJrrh2OgdUnHkO5AFmoUVbbZ=s600)
 ### 3.1 Main Tab: Today's Food Log The first tab, known as the "Main" tab, serves as the central hub of the application. Here, users can conveniently access their food log for the current day and gain insights into their daily diet. The main tab provides a basic breakdown of the nutritional information for today's meals, offering users a quick overview of their dietary intake. Additionally, logging food is effortless with a simple plus button that allows users to quickly add items to their food log. By clicking on the plus button, users can perform a search for a specific food item and easily log it into their daily record.
 
+![Event Log Report Page](https://lh3.googleusercontent.com/drive-viewer/AITFw-yyBvCxMhS1PQW-rwzvZXInTsFAG15cnKSjHphz-KAaVysCOF5kQ77N1R9nCwb7kkR2y6T1qQLNezaVltwphHrVyTFT=s600)
 ### 3.2 Calendar History Tab The second tab, named the "Calendar History" tab, provides users with a comprehensive view of their food log history. Users can browse through different dates to access past records, review their dietary patterns, and make informed decisions regarding their eating habits. The calendar history tab enables users to view, edit, add, or remove food log records for any given day, allowing them to maintain an accurate and personalized record of their diet over time.
 
+![Event Logging widgets](https://lh3.googleusercontent.com/drive-viewer/AITFw-zOoKBpoK22SC1IeNuq3vYiCqyIGh93qZDmU6v8fnd0qLB5ezkq0PUrtuYoY8o-hp4wiPZCF2ZKGdu7ZQSdfmG92up3=s600)
 ### 3.3 Biometric Data and Profile Tab The third tab, labeled as the "Biometric Data" tab, focuses on capturing and managing the user's general biometric information. Users can input data such as weight, height, and other relevant details to personalize their experience within the app. Additionally, this tab may include optional questions about allergies and food restrictions, ensuring that the app can provide tailored recommendations and alerts based on the user's specific needs and preferences.
 
+![Recipe Page](https://lh3.googleusercontent.com/drive-viewer/AITFw-yfJEW4YRJL9_f3EAzCCbI6e9Ed1RCs9Hw0aZB1pQZ-11N4BRy_h5C7uHgyOCHlQP44FCPXyqPhWLb6Oraw7hH3ZgBxYA=s600)
 By organizing the app's functionalities into these three tabs—Today's Food Log, Calendar History, and Biometric Data—the user interface becomes intuitive and easy to navigate. Users can seamlessly track their food intake, review past records, and manage their biometric data, enabling them to take control of their dietary habits and make informed decisions for their overall health and well-being.
 
 
@@ -34,13 +38,17 @@ Using the app is quite self explanatory but the images below describe how the fo
 
 ## Project Layout:
 Just like any ionic project the Food Logger open source project has a main app called the food-logger where the different pages, packages and services are located as you can see in the screenshot below.
+![Project Folder Layout](https://lh3.googleusercontent.com/drive-viewer/AITFw-whOflHnIKOt6Z41LaJVqrloJ8p6vgUB4dBPcmNOQJlFtANXpOff8cjN47txzTaX5VxYCKZFhJHfKu5ZFJG3DEjKmtKFw=s500)
 The main code which constructs the app is written inside the src folder.
+![Src Folder Layout](https://lh3.googleusercontent.com/drive-viewer/AITFw-xQZR80CN1g51ApsQEDDA5t8DY6HVhp09s8hHhymSV4iaNKzPGZ8ABPc6DwCNEgLROo3qiMwgEjzo-6mo2SGHOGFnRLfg=s560)
 The app folder contains the codebase for the app pages and functionalities.
-The assets folder has all the assets such as images and local datasets and theme and environment has some general information about the app. The index.html is the main page which contains the app, the other pages which are located in the app folder will later be placed inside the index. Html.
+The assets folder has all the assets such as images and local datasets and theme and environment has some general information about the app. The index.html is the main page which contains the app, the other pages which are located in the app folder will later be placed inside the index.html file.
+![App Folder Layout](https://lh3.googleusercontent.com/drive-viewer/AITFw-xmpky3XA1hoWevMBDigleOEMKskmLy8k4eNjJ6zcQzWlBeDEeHD_AWC_a-tOTZUPvPQFcn6eEBRr0bA3MjWJLn64yGYQ=s560)
 
 The auth folder contains the firebase authentication logic, the event logger contains a page which is beyond plain food logging and aims to log various events and can be adjusted by your needs.
 The services page contains any logical service which may be used within the app. The survey logger is provided to design and collect recurring survey data from the user and store it in the backend. The survey can be designed by an expert.
 The main code of the food logger is inside the logger folder.
+![Pages Folders Layout](https://lh3.googleusercontent.com/drive-viewer/AITFw-yp0ZVkq7PLgiveVGQGUwuk8Q5Y91yb05ssC7rhQz9cOiCjZRuUDuavjAHcvY-C8sjldT-0t2zqATc8RZ5CIVD2kvGZiQ=s560)
 
 
 
